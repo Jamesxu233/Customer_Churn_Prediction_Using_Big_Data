@@ -72,7 +72,7 @@ pip install -r requirements.txt
    
 4. Evaluate model:
    ```bash
-   python src/src/Model_Comparsion.py
+   python src/Model_Comparsion.py
    ```
 
 ## 📄 License
