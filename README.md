@@ -26,10 +26,11 @@ This project focuses on predicting customer churn using machine learning algorit
 - Hyperparameter tuning with Grid Search
 - Evaluation metrics: Accuracy, Precision, Recall, F1-score, AUC-ROC
 - Scalable data augmentation to simulate big data
+- Run EDA.py and Feature_Importance_Analysis.py to get feature insightful plots
 
 ## 📊 Dataset
 
-- **Source**: IBM Sample Dataset [Telco Customer Churn](https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/)
+- **Source**: IBM Sample Dataset [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
 - **Size**: Expanded from ~7,000 to ~1,000,000 rows
 
 ## 🛠️ Requirements
@@ -49,17 +50,29 @@ pip install -r requirements.txt
 
 2. Run preprocessing:
    ```bash
-   python src/preprocessing.py
+   python src/Preprocessing and EDA/Data_Augmentation.py
+   ```
+   
+   ```bash
+   python src/Preprocessing and EDA/Data_Preprocessing.py
    ```
 
 3. Train model:
    ```bash
-   python src/train_model.py --model xgboost
+   python src/models/XGboost.py
    ```
-
+   
+   ```bash
+   python src/models/Random_forest.py
+   ```
+   
+   ```bash
+   python src/models/Logistic_Regression.py
+   ```
+   
 4. Evaluate model:
    ```bash
-   python src/evaluate_model.py --model xgboost
+   python src/src/Model_Comparsion.py
    ```
 
 ## 📄 License
