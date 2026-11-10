@@ -2,6 +2,11 @@
 
 This project focuses on predicting customer churn using machine learning algorithms applied to a large-scale version of the IBM Telco Customer Churn dataset. The goal is to identify customers at risk of leaving a service and support business decision-making for retention strategies.
 
+**Author:** Ke Xu  
+**Course:** Big Data Analysis  
+**Institution:** University of Maryland, College Park  
+**Language:** Python
+
 ## 📂 Project Structure
 
 ```
